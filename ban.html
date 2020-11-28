@@ -1,21 +1,22 @@
 <html>
   <head>
     <title>出错啦</title>
+    <style>
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: calc(100% - 20px);
+        width: 100%;
+      }
+
+      .footer {
+        height: 20px;
+        text-align: center;
+      }
+    </style>
   </head>
-  <style>
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      height: calc(100% - 20px);
-      width: 100%;
-    }
-    .footer {
-      height: 20px;
-      text-align: center;
-    }
-  </style>
   <body>
     <div class="container">
       <div style="text-align: center;">
@@ -24,7 +25,8 @@
       </div>
     </div>
     <div class="footer">
-      <span>Locate: ::GEO:: • Cloudflare Ray ID: ::RAY_ID:: • Your IP: ::CLIENT_IP:: • Performance & security by <a href="https://www.cloudflare.com/">Cloudflare</a></span>
+      <span>Locate: ::GEO:: • Cloudflare Ray ID: ::RAY_ID:: • Your IP: ::CLIENT_IP:: • Performance & security by <a
+          href="https://www.cloudflare.com/">Cloudflare</a></span>
     </div>
   </body>
 </html>
